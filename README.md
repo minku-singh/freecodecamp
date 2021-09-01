@@ -1,3 +1,3 @@
-# freecodecamp
-- Projects made while learning from fcc
+# freecodecamp Projects
+
 ![freecodecamp logo](assets/fcc_logo.png)
