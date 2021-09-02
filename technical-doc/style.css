@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(182, 245, 120);
+}
+
+body {
+    display: flex;
+}
+
+#main-doc {
+    margin-left: 5vw;
+}
+
+ol li {
+    margin-left: 5vw;
+}
+
+ul li {
+    margin-top: 5vh;
+    list-style: none;
+    border: 2px solid black;
+}
+
+#navbar {
+    padding: 4vw;
+    border: 2px solid black;
+}
+
+#fcc {
+    margin-top: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-section {
+    margin-top: 4vh;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+@media only screen and (max-width : 600px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
