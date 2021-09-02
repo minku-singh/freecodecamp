@@ -49,3 +49,7 @@ footer {
 a {
     color: white;
 }
+
+label, p {
+    text-shadow: 1px 1px 5px white ;
+}
