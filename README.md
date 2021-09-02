@@ -10,3 +10,4 @@ Revisiting all the topics as from 01.09.2021
 - [Technical Documentation](https://minku-singh.github.io/freecodecamp/technical-doc/)
 - [Survey Form](https://minku-singh.github.io/freecodecamp/survey-form/)
 - [Product Landing Page](https://minku-singh.github.io/freecodecamp/product-landing/)
+- [Fake Portfolio](https://minku-singh.github.io/freecodecamp/portfolio/)
