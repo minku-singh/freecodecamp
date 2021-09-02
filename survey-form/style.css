@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-image: url(assets/covid-background-img.jpeg);
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(10, 2, 2);
+}
+
+h1 {
+    text-shadow: 1px 1px 5px white ;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 5vw 2vh 5vw;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(83, 5, 5, 0.7);
+    margin-top: 3vh;
+    padding: 3vw;
+    width: 50vw;
+    border: 2px solid rgb(44, 1, 1);
+}
+
+.flex-form {
+    display: flex;
+}
+
+label {
+    margin: 1vh 0 1vh 0;
+}
+
+button {
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: white;
+}

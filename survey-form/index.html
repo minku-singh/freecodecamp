@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <title>Survey Form | COVID-19</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">COVID-19 Survey Form</h1>
+        <p id="description">Thanks for giving us time</p>
+
+        <form action="#" id="survey-form">
+            <label for="name-label">Name<br>
+                <input type="text" name="name" id="name" size="30" required>
+            </label>
+            
+            <label for="email-label">Email<br>
+                <input type="email" name="email" id="email" size="30" required>
+            </label>
+            
+            <label for="number-label">Number<br>
+                <input type="text" name="number" id="number" size="30" min="0" max="9" required>
+            </label>
+
+            <label for="role-label">Which option best describes your current Role<br>
+                <select name="role" id="dropdown" required>
+                    <option value="Student" size="30">Student</option>
+                    <option value="Work from Office" size="30">Work From Office</option>
+                    <option value="Work from Home" size="30">Work From Home</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+
+            <label for="transport-label">Which Transportation do you use?<br>
+                Private Vehicle<input type="radio" name = "transport" value = "Private Vehicle">
+                Company Bus<input type="radio" name = "transport" value = "Company Bus">
+                Public Transport<input type="radio" name = "transport" value = "Public Transport">
+            </label>
+
+            <label for="work-label">Which is your work time?<br>
+                9-12 am<input type="checkbox" name="work" id="work" value="9-12">
+                12-6 pm<input type="checkbox" name="work" id="work" value="12-6">
+                6-12 pm<input type="checkbox" name="work" id="work" value="6-12">
+                12-9 am<input type="checkbox" name="work" id="work" value="12-9">
+            </label>
+
+            <label for="comment">Any Comments?<br>
+                <textarea name="comment" id="textarea cols="30" rows="10" size = "30"></textarea>
+            </label>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+    <footer> <a href="https://www.freecodecamp.org/">freecodecamp</a> | <a href="https://twitter.com/minku_singhh" title="twitter">Minku Singh</a> </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
